@@ -299,7 +299,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
           >
             Edit
           </DropdownMenuItem>
-          <DropdownMenuItem>View Details</DropdownMenuItem>
+          {/* <DropdownMenuItem>View Details</DropdownMenuItem> */}
           {/* <DropdownMenuItem>Duplicate</DropdownMenuItem> */}
           <DropdownMenuSeparator />
           <DropdownMenuItem

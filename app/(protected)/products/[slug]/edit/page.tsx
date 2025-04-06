@@ -501,7 +501,7 @@ export default function EditProductPage({
 
       if (response && response.data) {
         toast.success("Product updated successfully!");
-        router.push("/products");
+        router.push("/");
       }
     } catch (error) {
       console.error("Error updating product:", error);

@@ -410,7 +410,7 @@ export default function Page() {
 
       if (response && response?.data) {
         toast.success("Product created successfully!");
-        router.push("/products");
+        router.push("/");
       }
 
       // Reset form after successful submission
@@ -464,7 +464,7 @@ export default function Page() {
 
                         <CardContent className="p-6">
                           <TabsContent value="basic" className="space-y-4 mt-4">
-                            <div className="grid md:grid-cols-2 gap-6">
+                            <div className="grid md:grid-cols-2 items-start gap-6">
                               <FormItem>
                                 <FormLabel>Product Name *</FormLabel>
                                 <FormControl>
@@ -516,7 +516,7 @@ export default function Page() {
                               )}
                             </FormItem>
 
-                            <div className="grid md:grid-cols-2 gap-6">
+                            <div className="grid md:grid-cols-2 items-start gap-6">
                               <FormItem>
                                 <FormLabel>Category *</FormLabel>
                                 <Select
@@ -759,7 +759,7 @@ export default function Page() {
                             value="pricing"
                             className="space-y-4 mt-4"
                           >
-                            <div className="grid md:grid-cols-2 gap-6">
+                            <div className="grid md:grid-cols-2 items-start gap-6">
                               <FormItem>
                                 <FormLabel>Regular Price *</FormLabel>
                                 <FormControl>
