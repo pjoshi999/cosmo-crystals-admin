@@ -298,7 +298,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
             onClick={() => redirect(`/products/${row.original.id}/edit`)}
           >
             Edit
-          </DropdownMenuItem>
+          </DropdownMenuItem> 
           {/* <DropdownMenuItem>View Details</DropdownMenuItem> */}
           {/* <DropdownMenuItem>Duplicate</DropdownMenuItem> */}
           <DropdownMenuSeparator />
